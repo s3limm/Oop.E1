@@ -38,5 +38,20 @@ namespace Oop.E1
 
 
         }
+
+        private void btnNewUser_Click(object sender, EventArgs e)
+        {
+            User user = new User();
+            user.age = 18;
+            user.job = "Developer";
+            user.userName = "yavuz";
+            user.passWord = "123";
+            MessageBox.Show($"User Name : {user.userName} \nPassword : {user.passWord} \nAge: {user.age}  \nJob : {user.job}");
+        }
+
+        private void btnTreeProp_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
