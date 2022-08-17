@@ -55,7 +55,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Forms\Class.E1\Class%27s\User.cs" />
-    <Compile Include="TreeProperties.cs" />
+    <Compile Include="Forms\Class.E1\Class%27s\TreeProperties.cs" />
     <EmbeddedResource Include="Forms\Class.E1\Episodes\Class.E1.resx">
       <DependentUpon>Class.E1.cs</DependentUpon>
     </EmbeddedResource>
