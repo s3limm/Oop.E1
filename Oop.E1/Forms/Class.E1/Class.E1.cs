@@ -51,7 +51,12 @@ namespace Oop.E1
 
         private void btnTreeProp_Click(object sender, EventArgs e)
         {
-
+            TreeProperties treeProp = new TreeProperties();
+            treeProp.Height = 3.5;
+            treeProp.Age = 13;
+            treeProp.Color = "Dark Brown";
+            treeProp.Type = "Olive";
+            MessageBox.Show($"Height : {treeProp.Height} meters \n Age : {treeProp.Age} years \n Color : {treeProp.Color} \n Type : {treeProp.Type}'s tree ");
         }
     }
 }
