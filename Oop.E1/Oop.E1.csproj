@@ -46,17 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Forms\Class.E1\Class.E1.cs">
+    <Compile Include="Forms\Class.E1\Episodes\Class.E1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Class.E1\Class.E1.Designer.cs">
+    <Compile Include="Forms\Class.E1\Episodes\Class.E1.Designer.cs">
       <DependentUpon>Class.E1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Forms\Class.E1\Class%27s\User.cs" />
     <Compile Include="TreeProperties.cs" />
-    <EmbeddedResource Include="Forms\Class.E1\Class.E1.resx">
+    <EmbeddedResource Include="Forms\Class.E1\Episodes\Class.E1.resx">
       <DependentUpon>Class.E1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
