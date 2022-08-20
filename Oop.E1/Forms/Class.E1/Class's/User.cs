@@ -13,5 +13,10 @@ namespace Oop.E1
         public int age { get; set; }
         public string job { get; set; }
 
+         public void Login(string loginDate)
+        {
+            System.Windows.Forms.MessageBox.Show($"{loginDate} tarihinde {userName} kullanıcısı tarafından {passWord} şifresi ile giriş yapılmıştır.");
+        }
+
     }
 }
