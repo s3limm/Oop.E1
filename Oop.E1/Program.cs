@@ -16,7 +16,7 @@ namespace Oop.E1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Class_Login());
+            Application.Run(new ());
         }
     }
 }
